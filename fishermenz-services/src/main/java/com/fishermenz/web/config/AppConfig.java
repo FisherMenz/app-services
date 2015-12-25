@@ -8,7 +8,7 @@ import org.springframework.context.annotation.PropertySources;
 
 @Configuration
 @PropertySources(value = { @PropertySource("classpath:application.properties") })
-@ComponentScan(basePackages = { "com.fishermenz.web.service" })
+@ComponentScan(basePackages = { "com.fishermenz.services" })
 @Import({SecurityConfig.class})
 public class AppConfig {
 	
