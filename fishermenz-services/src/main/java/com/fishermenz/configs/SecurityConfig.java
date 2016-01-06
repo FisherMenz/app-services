@@ -1,4 +1,4 @@
-package com.fishermenz.web.config;
+package com.fishermenz.configs;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

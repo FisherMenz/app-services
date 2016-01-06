@@ -9,8 +9,8 @@ import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
-import com.fishermenz.web.config.AppConfig;
-import com.fishermenz.web.config.WebConfig;
+import com.fishermenz.configs.AppConfig;
+import com.fishermenz.configs.WebConfig;
 
 
 public class WebAppInitializer implements WebApplicationInitializer {
